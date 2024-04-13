@@ -1,0 +1,31 @@
+.mainBox {
+  padding: 150px 0px 150px 0px;
+}
+
+.innerBox {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 100px;
+}
+
+.mainHeading {
+  font-size: 56px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.dot {
+  color: var(--color-1);
+  border-radius: 50% !important;
+}
+
+.subHeading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.text {
+  font-size: 18px;
+  color: var(--text-color-2);
+}

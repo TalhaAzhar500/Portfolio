@@ -1,0 +1,32 @@
+[
+  {
+    "role": "FrontEnd Developer",
+    "company": "TDC",
+    "date": "July 2023 - Present",
+    "points": [
+      "Developed and shipped highly interactive web applications for Apple Music using Ember.js",
+      "Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs",
+      "Worked with a team to build a marketing website and e-commerce platform for blistabloc, an ambitious startup."
+    ]
+  },
+  {
+    "role": "FrontEnd Developer",
+    "company": "XYZ",
+    "date": "March 2024 - Present",
+    "points": [
+      "Helped solidify a brand direction for blistabloc that spans both packaging and web.",
+      "Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness",
+      "Worked with a team to build a marketing website and e-commerce platform for blistabloc, an ambitious startup."
+    ]
+  },
+  {
+    "role": "FrontEnd Developer",
+    "company": "ABC",
+    "date": "jan 2022 - july 2023",
+    "points": [
+      "Helped solidify a brand direction for blistabloc that spans both packaging and web.",
+      "Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness",
+      "Worked with a team to build a marketing website and e-commerce platform for blistabloc, an ambitious startup."
+    ]
+  }
+]

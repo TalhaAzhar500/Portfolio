@@ -1,0 +1,60 @@
+.mainBox {
+  padding: 70px 40px 150px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subBox {
+  max-width: 550px;
+}
+
+.h1 {
+  font-size: 56px;
+  font-weight: 600;
+}
+
+.p {
+  font-size: 24px;
+  font-style: italic;
+  color: var(--text-color-2);
+}
+
+.imageBox {
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid var(--color-1);
+  border-radius: 50%;
+}
+
+.image {
+  width: 380px;
+  height: 380px;
+}
+
+.contactBox {
+  margin-top: 20px;
+  padding: 20px 0px;
+}
+
+.contactBox > *:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.contactInnerBox {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.iconBtn {
+  border: 1px solid var(--text-color-2);
+  margin-right: 20px;
+}
+
+.text {
+  font-size: 18px;
+  color: var(--text-color-2);
+}
