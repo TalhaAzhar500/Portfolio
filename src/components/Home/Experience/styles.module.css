@@ -1,0 +1,72 @@
+.mainBox {
+  padding: 150px 0px 0px 0px;
+}
+
+.mainHeading {
+  font-size: 56px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.dot {
+  color: var(--color-1);
+  border-radius: 50% !important;
+}
+
+.mainTabBox {
+  flex-grow: 1;
+  display: flex;
+  height: auto;
+  /* position: relative; */
+}
+
+.tab {
+  font-size: 22px;
+  text-transform: none;
+  opacity: 0.9;
+  padding: 20px 20px 20px 40px;
+  align-items: start;
+}
+
+.line {
+  width: 3px;
+  height: 100%;
+  background-color: var(--text-color-2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.tabPanel {
+  padding: 15px 0px 0px 80px;
+}
+
+.innerPanel {
+  padding-top: 20px;
+}
+
+.panelText {
+  padding: 10px 0px 10px 0px;
+  font-size: 18px;
+  color: var(--text-color-2);
+  display: flex;
+  align-items: center;
+}
+
+.panelHeading {
+  font-size: 22px;
+  font-weight: 600;
+  color: #242625;
+}
+
+.panelSubHeading {
+  font-size: 13px;
+  color: var(--text-color-2);
+}
+
+.tick {
+  color: var(--color-1);
+  margin-right: 10px;
+}

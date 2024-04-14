@@ -1,0 +1,31 @@
+.mainBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 35px;
+}
+
+.heading {
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--text-color-2);
+}
+
+.rightBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.socialBox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social {
+  color: var(--text-color-2);
+}
+
+.social :hover {
+  color: var(--color-1);
+  cursor: pointer;
+}

@@ -1,0 +1,20 @@
+.mainBox {
+  padding: 0px 0px 150px 0px;
+}
+
+.mainHeading {
+  font-size: 56px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.dot {
+  color: var(--color-1);
+  border-radius: 50% !important;
+}
+
+.text {
+  font-size: 18px;
+  color: var(--text-color-2);
+  margin-top: 10px;
+}
