@@ -2,7 +2,6 @@
 import { Box, Typography } from "@mui/material";
 import styles from "./styles.module.css";
 import { useEffect, useState } from "react";
-import { motion } from "framer-motion";
 
 const About = () => {
   const [scrollY, setScrollY] = useState(0);
