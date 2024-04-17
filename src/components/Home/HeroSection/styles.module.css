@@ -31,4 +31,17 @@
 .image {
   width: 380px;
   height: 380px;
+  animation: floating 4s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-24px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }

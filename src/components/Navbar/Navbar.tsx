@@ -134,8 +134,13 @@ const NavBar = () => {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Contact">
               <Link href={"/contact"}>
-                <IconButton sx={{ p: 0 }}>
-                  <MessageRounded />
+                <IconButton
+                  sx={{
+                    backgroundColor: "black",
+                    ":hover": { backgroundColor: "black" },
+                  }}
+                >
+                  <MessageRounded sx={{ color: "#fff", fontSize: "20px" }} />
                 </IconButton>
               </Link>
             </Tooltip>

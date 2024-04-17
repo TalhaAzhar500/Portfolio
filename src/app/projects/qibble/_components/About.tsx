@@ -21,24 +21,6 @@ const About = () => {
     <Box className={styles.mainBox}>
       -
       <Box className={styles.leftBox} sx={{ top: scrollY + 50 }}>
-        {/* <motion.div
-        style={{
-          position: "sticky",
-          top: scrollY + 50,
-          left: 0,
-          width: "100%",
-          height: "fit-content",
-          maxWidth: "383px",
-          borderRadius: "10px",
-          padding: "15px",
-          boxShadow: "0px 0px 2px 2px rgba(var(--rgb-color-1), 0.8)",
-          marginBottom: "68px",
-        }}
-        // animate={{
-        //   top: scrollY + 50,
-        // }}
-        // transition={{ ease: "linear" }}
-      > */}
         <Box className={styles.leftInnerBox}>
           <Box className={styles.titleBox}>
             <Typography className={styles.leftTitle}>Client</Typography>
@@ -55,7 +37,6 @@ const About = () => {
             Frontend Developer
           </Typography>
         </Box>
-        {/* </motion.div> */}
       </Box>
       <Box className={styles.rightBox}>
         <Typography className={styles.title}>About</Typography>
